@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Постеры предоставлены https://www.movieposters.com/</string>
+    <string name="disclaimer" />
 </resources>

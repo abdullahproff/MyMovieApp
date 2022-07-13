@@ -6,6 +6,8 @@
         <entry key="app/src/main/res/drawable-v21/app_widget_background.xml" value="0.227" />
         <entry key="app/src/main/res/drawable-v21/app_widget_inner_view_background.xml" value="0.227" />
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/background.xml" value="0.1305" />
+        <entry key="app/src/main/res/drawable/background_search_view.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/corner_background.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_baseline_favorite_24.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_baseline_favorite_border_24.xml" value="0.1025" />
@@ -17,6 +19,7 @@
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_details.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/background_search_view.xml" value="0.1" />
         <entry key="app/src/main/res/layout/film_item.xml" value="0.11524822695035461" />
         <entry key="app/src/main/res/layout/fragment_details.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_favorites.xml" value="0.1" />

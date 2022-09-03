@@ -5,10 +5,6 @@ import androidx.recyclerview.widget.RecyclerView
 import com.amsdevelops.filmssearch.Film
 import com.bumptech.glide.Glide
 import kotlinx.android.synthetic.main.film_item.view.*
-import kotlinx.android.synthetic.main.fragments_film_item.view.*
-import kotlinx.android.synthetic.main.film_item.view.title as title1
-import kotlinx.android.synthetic.main.fragments_film_item.view.description as description1
-import kotlinx.android.synthetic.main.fragments_film_item.view.poster as poster1
 
 //В конструктор класс передается layout, который мы создали(film_item.xml)
 class FilmViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
@@ -16,6 +12,8 @@ class FilmViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
     private val title = itemView.title
     private val poster = itemView.poster
     private val description = itemView.description
+    //Вот здесь мы находим в верстке наш прогресс бар для рейтинга
+    private val ratingDonut = itemView.rating_donut
 
     //В этом методе кладем данные из film в наши view
     fun bind(film: Film) {
@@ -32,5 +30,7 @@ class FilmViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
             .into(poster)
         //Устанавливаем описание
         description.text = film.description
+        //Устанавливаем рэйтинг
+        ratingDonut.setProgress((film.rating * 10).toInt())
     }
 }

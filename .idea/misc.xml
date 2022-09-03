@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.10462962962962963" />
         <entry key="app/src/main/res/drawable-v21/app_widget_background.xml" value="0.227" />
         <entry key="app/src/main/res/drawable-v21/app_widget_inner_view_background.xml" value="0.227" />
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
@@ -40,6 +41,7 @@
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_selections.xml" value="0.3066123188405797" />
         <entry key="app/src/main/res/layout/fragment_watch_later.xml" value="0.3066123188405797" />
+        <entry key="app/src/main/res/layout/fragments_film_item.xml" value="0.21875" />
         <entry key="app/src/main/res/layout/merge_home_screen_content.xml" value="0.1" />
         <entry key="app/src/main/res/menu/navigation_menu.xml" value="0.30885416666666665" />
         <entry key="app/src/main/res/menu/out_menu.xml" value="0.1" />

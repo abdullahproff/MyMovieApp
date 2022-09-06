@@ -1,19 +1,24 @@
-package com.example.myapplication
+package com.example.myapplication.view
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
-import com.amsdevelops.filmssearch.Film
-import kotlinx.android.synthetic.main.activity_main.*
+import com.example.myapplication.*
+import com.example.myapplication.domain.Film
+import com.example.myapplication.databinding.ActivityMainBinding
+import com.example.myapplication.view.fragments.*
 
 class MainActivity : AppCompatActivity() {
+    private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        //Инициализируем объект
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        //Передаем его в метод
+        setContentView(binding.root)
 
         initNavigation()
-
         //Зупускаем фрагмент при старте
         supportFragmentManager
             .beginTransaction()
@@ -42,8 +47,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun initNavigation() {
-        bottom_navigation.setOnNavigationItemSelectedListener {
-
+        binding.bottomNavigation.setOnNavigationItemSelectedListener {
             when (it.itemId) {
                 R.id.home -> {
                     val tag = "home"

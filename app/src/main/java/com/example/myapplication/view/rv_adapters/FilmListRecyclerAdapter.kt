@@ -1,12 +1,12 @@
-package com.example.myapplication
+package com.example.myapplication.view.rv_adapters
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.amsdevelops.filmssearch.Film
-import kotlinx.android.synthetic.main.film_item.view.*
+import com.example.myapplication.view.rv_viewholders.FilmViewHolder
+import com.example.myapplication.R
+import com.example.myapplication.domain.Film
 import kotlinx.android.synthetic.main.fragments_film_item.view.*
-import kotlinx.android.synthetic.main.film_item.view.item_container as item_container1
 
 //в параметр передаем слушатель, чтобы мы потом могли обрабатывать нажатия из класса активити
 class FilmListRecyclerAdapter(private val clickListener: OnItemClickListener) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {

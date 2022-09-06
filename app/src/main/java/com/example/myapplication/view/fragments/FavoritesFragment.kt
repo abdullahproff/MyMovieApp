@@ -1,4 +1,4 @@
-package com.example.myapplication
+package com.example.myapplication.view.fragments
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -6,7 +6,12 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.amsdevelops.filmssearch.Film
+import com.example.myapplication.view.rv_adapters.FilmListRecyclerAdapter
+import com.example.myapplication.R
+import com.example.myapplication.view.rv_adapters.TopSpacingItemDecoration
+import com.example.myapplication.domain.Film
+import com.example.myapplication.utils.AnimationHelper
+import com.example.myapplication.view.MainActivity
 import kotlinx.android.synthetic.main.fragment_favorites.*
 
 class FavoritesFragment : Fragment() {
@@ -28,7 +33,7 @@ class FavoritesFragment : Fragment() {
         AnimationHelper.performFragmentCircularRevealAnimation(favorites_fragment_root, requireActivity(),2)
 
         favorites_recycler.apply {
-            filmsAdapter = FilmListRecyclerAdapter(object : FilmListRecyclerAdapter.OnItemClickListener{
+            filmsAdapter = FilmListRecyclerAdapter(object : FilmListRecyclerAdapter.OnItemClickListener {
                 override fun click(film: Film) {
                     (requireActivity() as MainActivity).launchDetailsFragment(film)
                 }

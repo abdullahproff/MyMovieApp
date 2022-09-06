@@ -1,8 +1,8 @@
-package com.example.myapplication
+package com.example.myapplication.view.rv_viewholders
 
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
-import com.amsdevelops.filmssearch.Film
+import com.example.myapplication.domain.Film
 import com.bumptech.glide.Glide
 import kotlinx.android.synthetic.main.film_item.view.*
 

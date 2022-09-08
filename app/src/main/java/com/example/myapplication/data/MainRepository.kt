@@ -4,7 +4,7 @@ import com.example.myapplication.R
 import com.example.myapplication.domain.Film
 
 class MainRepository {
-    val filmsDataBase = listOf(
+    /*val filmsDataBase = listOf(
         Film("The Godfather",
             R.drawable.god_father, "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.", 2.0f),
         Film("The Dark Knight",
@@ -23,5 +23,5 @@ class MainRepository {
             R.drawable.joker, "In Gotham City, mentally troubled comedian Arthur Fleck is disregarded and mistreated by society. He then embarks on a downward spiral of revolution and bloody crime. This path brings him face-to-face with his alter-ego: the Joker.",8.0f),
         Film("1917",
             R.drawable.seventy, "April 6th, 1917. As a regiment assembles to wage war deep in enemy territory, two soldiers are assigned to race against time and deliver a message that will stop 1,600 men from walking straight into a deadly trap.",8.4f)
-    )
+    )*/
 }

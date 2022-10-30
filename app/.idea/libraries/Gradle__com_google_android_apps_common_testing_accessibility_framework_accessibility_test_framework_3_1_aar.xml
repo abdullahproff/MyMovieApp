@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.apps.common.testing.accessibility.framework:accessibility-test-framework:3.1@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4286e6a77dee544ec1cfb16d67a7a199/transformed/jetified-accessibility-test-framework-3.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/1598cd68d735c3ae4e2f1cb96d2c803d/transformed/jetified-accessibility-test-framework-3.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1598cd68d735c3ae4e2f1cb96d2c803d/transformed/jetified-accessibility-test-framework-3.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1598cd68d735c3ae4e2f1cb96d2c803d/transformed/jetified-accessibility-test-framework-3.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.android.apps.common.testing.accessibility.framework/accessibility-test-framework/3.1/a4effc83ebb1245462953f8c95f53001dca54ace/accessibility-test-framework-3.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

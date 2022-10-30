@@ -50,7 +50,7 @@ class HomeFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
+        viewModel
         AnimationHelper.performFragmentCircularRevealAnimation(home_fragment_root, requireActivity(), 1)
 
         initSearchView()

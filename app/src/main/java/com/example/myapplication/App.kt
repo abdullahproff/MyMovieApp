@@ -1,6 +1,7 @@
 package com.example.myapplication
 
 import android.app.Application
+import com.example.myapplication.BuildConfig
 import com.example.myapplication.data.ApiConstants
 import com.example.myapplication.data.MainRepository
 import com.example.myapplication.data.TmdbApi

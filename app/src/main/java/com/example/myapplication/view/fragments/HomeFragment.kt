@@ -30,7 +30,7 @@ class HomeFragment : Fragment() {
         set(value) {
             //Если придет такое же значение то мы выходим из метода
             if (field == value) return
-            //Если прило другое значение, то кладем его в переменную
+            //Если пришло другое значение, то кладем его в переменную
             field = value
             //Обновляем RV адаптер
             filmsAdapter.addItems(field)
@@ -58,6 +58,9 @@ class HomeFragment : Fragment() {
         //находим наш RV
         initRecyckler()
         //Кладем нашу БД в RV
+        viewModel.filmsListLiveData.observe(viewLifecycleOwner) {
+            filmsAdapter.addItems(it)
+        }
         filmsAdapter.addItems(filmsDataBase)
     }
 
